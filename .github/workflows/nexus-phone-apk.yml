@@ -3,6 +3,7 @@ name: Build Nexus Phone APK
 on:
   push:
     branches:
+      - main
       - nexus-phone-build
   workflow_dispatch:
 
