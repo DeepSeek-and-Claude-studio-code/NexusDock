@@ -5,7 +5,7 @@ plugins {
 }
 android {
     namespace = "com.nexus.phone"
-    compileSdk = 35
+    compileSdk = 36
     defaultConfig {
         applicationId = "com.nexus.phone"
         minSdk = 29
