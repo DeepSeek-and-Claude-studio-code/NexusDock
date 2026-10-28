@@ -299,7 +299,7 @@ private fun DialPad(number: String, onNumberChange: (String) -> Unit, onDial: (S
     val keys = listOf("1", "2", "3", "4", "5", "6", "7", "8", "9", "*", "0", "#")
     LazyVerticalGrid(
         columns = GridCells.Fixed(3),
-        modifier = Modifier.fillMaxWidth().weight(1f),
+        modifier = Modifier.fillMaxWidth().height(300.dp),
         contentPadding = PaddingValues(4.dp)
     ) {
         items(keys.size) { index ->
